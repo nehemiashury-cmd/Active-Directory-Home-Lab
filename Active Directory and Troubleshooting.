@@ -1,0 +1,26 @@
+Active Directory Home Lab
+Project Overview
+I designed and deployed a virtualized home lab environment to gain hands-on experience with Active Directory Domain Services (AD DS) and security auditing. This lab mirrors enterprise environments where I practiced user management, security group nesting, and Group Policy enforcement.
++1
+
+Technical Environment
+Hypervisor: VirtualBox / VMware
+
+Domain Controller: Windows Server 2022 (Standard Evaluation)
+
+Client Endpoint: Windows 10/11 Enterprise
+
+Network: Isolated NAT Network for secure testing
+
+Key Configurations Completed
+Forest/Domain Setup: Promoted a Windows Server to a Domain Controller and configured a private DNS zone. * User Administration: Created Organizational Units (OUs) for different departments and utilized the Principle of Least Privilege to assign permissions.
+
+Group Policy Objects (GPOs): > * Enforced password complexity requirements.
+
+Disabled CMD/PowerShell for non-admin users.
+
+Configured Audit Policies to log successful and failed login attempts (Event ID 4624/4625). * Network Troubleshooting: Resolved connectivity issues between the client and DC, ensuring proper DNS resolution and IP configuration.
++1
+
+Security Monitoring
+I utilized this lab to study brute-force attack patterns by analyzing event logs, which directly supports my CompTIA CySA+ training and WGU Digital Forensics (D829) coursework.
